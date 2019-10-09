@@ -1,5 +1,5 @@
 /*
-  Theme Name: Alstar
+  Theme Name: Alstar1.jpg
   Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
   Author: BootstrapMade.com
   Author URL: https://bootstrapmade.com
@@ -12,6 +12,7 @@ Imports
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
+@import url('iconmoon.css');
 
 /* ================================
 General
@@ -314,7 +315,7 @@ Intro
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: 700;
 }
 
@@ -324,6 +325,7 @@ Intro
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 28px;
 }
 
 @media (max-width: 768px ) {
@@ -388,7 +390,7 @@ Intro
 #intro .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -757,7 +759,11 @@ ul.clients {
 ul.clients li {
 	display: inline;
 }
-
+.brand {
+	color: #fff;
+	font-size: 80pt;
+	margin-right: 30px;
+}
 
 /* ================================
 Bottom widget
