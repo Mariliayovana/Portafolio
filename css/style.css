@@ -414,6 +414,19 @@ Intro
 About
 ================================= */
 
+.cv {
+  background: #00c1c1;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.cv:hover {
+  color: #fff;
+}
+
 #about .about-img {
   height: 350px;
   overflow: hidden;
@@ -449,10 +462,15 @@ About
   line-height: 35px;
   font-style: italic;
   text-align: left;
+  padding-bottom: 25px;
 }
 
 #about .content p {
   line-height: 26px;
+  text-align: left;
+}
+
+#about .content {
   text-align: left;
 }
 
