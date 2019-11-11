@@ -117,7 +117,9 @@
 
 		requestAnimFrame = (
 			window.requestAnimationFrame       ||
-			window.webkitRequestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||content
+			content
+			content
 			window.mozRequestAnimationFrame    ||
 			window.oRequestAnimationFrame      ||
 			window.msRequestAnimationFrame     ||
