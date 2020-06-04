@@ -773,9 +773,14 @@ Clients
 ================================= */
 ul.clients {
 	list-style: none;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 ul.clients li {
 	display: inline;
+	margin-bottom: 40px;
 }
 .brand {
 	color: #fff;
@@ -902,4 +907,8 @@ more media queries
 	header h1{
 		font-size: 70px;
 	}
+}
+
+.brand-logo{
+	max-width: 270px;
 }
